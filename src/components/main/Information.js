@@ -8,7 +8,7 @@ export default [
     icon: <Person />,
     First_Name: "Mariem",
     Last_Name: "Aly",
-    image: "../assets/imgs/Mariem.jpg",
+    image: "/imgs/Mariem.jpg",
     Mobile_Number: "010567240256",
     Email_Address: "mariem@gmail.com",
     Date_of_Birth: "July 14, 1995",
