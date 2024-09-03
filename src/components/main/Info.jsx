@@ -10,7 +10,7 @@ function Info({ edit, setEdit, data }) {
       <div className="flex gap-4">
         <img
           className="h-[100px] w-[100px] rounded-md object-cover "
-          src="/imgs/mariem.jpg"
+          src="/imgs/Mariem.jpg"
           alt=""
         />
         <div className="flex flex-col justify-between">

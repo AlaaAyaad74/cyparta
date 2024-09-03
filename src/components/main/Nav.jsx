@@ -10,7 +10,7 @@ function Nav() {
       <div>
         <img
           className="w-[60px] h-[60px] rounded-full object-cover"
-          src="/imgs/mariem.jpg"
+          src="/imgs/Mariem.jpg"
           alt="profile"
         />
       </div>
