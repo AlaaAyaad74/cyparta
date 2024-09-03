@@ -5,7 +5,7 @@ import Nav from "@/components/main/Nav";
 import Path from "@/components/main/Path";
 import React, { useState } from "react";
 
-function page() {
+function Page() {
   const [edit, setEdit] = useState(true);
   const [data, setData] = useState({});
   return (
@@ -18,4 +18,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
