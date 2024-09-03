@@ -97,7 +97,7 @@ function DetailsInfo({ edit, data, setData }) {
                 </div>
               ) : (
                 <div className="w-full flex flex-col gap" key={key}>
-                  <label>{key.replace("_", " ")}</label>
+                  <label>{key.replace("_", "/")}</label>
                   <input
                     className={`w-full py-1 bg-transparent ${
                       !edit && "bg-white px-2"
