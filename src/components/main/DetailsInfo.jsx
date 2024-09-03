@@ -69,7 +69,7 @@ function DetailsInfo({ edit, data, setData }) {
           key !== "financialInformation" ? (
             <div key={key} className="w-full border-b-2 border-borderColor">
               <label className="text-labelColor text-[14px]">
-                {key.replaceAll("_", "/")}
+                {key.replaceAll("_", " ")}
               </label>
               <input
                 className={`w-full py-2 bg-transparent ${
