@@ -2,7 +2,7 @@ import React from "react";
 import Job from "../assets/svgs/Job";
 import Email from "../assets/svgs/Email";
 import Edit from "../assets/svgs/Edit";
-import Information from "./Information";
+
 function Info({ edit, setEdit, data }) {
   console.log(data);
   return (
