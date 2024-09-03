@@ -49,10 +49,10 @@ function DetailsInfo({ edit, data, setData }) {
         {Information.map((item, index) => (
           <p
             key={index}
-            className={`flex gap-1 cursor-pointer pb-2 ${
+            className={`flex gap-1 cursor-pointer pb-2 font-thin ${
               active === index
                 ? "fill-red-500 text-red-500 font-medium stroke-slate-200 border-b-2 border-red-500 "
-                : "stroke-customBlack2 fill-none text-customBlack2 font-thin"
+                : "stroke-customBlack2 fill-none text-customBlack2"
             } `}
             onClick={() => handleData(index)}
           >

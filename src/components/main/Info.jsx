@@ -14,10 +14,10 @@ function Info({ edit, setEdit, data }) {
           alt=""
         />
         <div className="flex flex-col justify-between">
-          <h1 className="text-[24px] font-medium">
-            {data.First_Name}
+          <h1 className="text-[24px] font-bold">
+            {data.First_Name || "Mariem"}
             {"  "}
-            {data.Last_Name}
+            {data.Last_Name || "Aly"}
           </h1>
           <p className="flex gap-2 text-customBlack2">
             <span>
@@ -29,7 +29,7 @@ function Info({ edit, setEdit, data }) {
             <span>
               <Email />
             </span>
-            {data.Email_Address}
+            {data.Email_Address || "mariam@gmail.com"}
             {/* mariam@gmail.com */}
           </p>
         </div>

@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
 :root {
   --main--background-color: #e9e9e9;
   --background-end-rgb: 255, 255, 255;
@@ -13,6 +15,7 @@
 }
 body {
   background-color: var(--main--background-color);
+  font-family: "Lexend", sans-serif !important;
 }
 button {
   outline: none;
